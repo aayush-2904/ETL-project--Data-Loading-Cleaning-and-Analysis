@@ -8,7 +8,7 @@ followed by data cleaning using pandas, and concluding with data analysis conduc
 Data is downloaded from Kaggle using the API, ensuring that the dataset is always up-to-date. The Kaggle API+ python+Sql server project.ipynb notebook demonstrates how to authenticate with the Kaggle API and download the dataset.
 
 **Data Cleaning**
-The raw data is cleaned using pandas in the data_cleaning.ipynb notebook. The cleaning steps include handling missing values, correcting data types, and removing duplicates. The cleaned data is then send to the MSSQL server using SQLALCHEMY library
+The raw data is cleaned using pandas in the Kaggle API+ python+Sql server project.ipynb notebook. The cleaning steps include handling missing values, correcting data types, and removing duplicates. The cleaned data is then send to the MSSQL server using SQLALCHEMY library
 
 **Data Analysis**
-The cleaned data is loaded into Microsoft SQL Server, where various SQL queries are used to analyze the data. The SQLQuery1.sql script includes queries for exploratory data analysis (EDA), statistical summaries, and specific business-related questions.
+The cleaned data is loaded into Microsoft SQL Server, where various SQL queries are used to analyze the data. The Data Analysis Query.sql script includes queries for exploratory data analysis (EDA), statistical summaries, and specific business-related questions.
